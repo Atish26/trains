@@ -1,0 +1,20 @@
+Started by upstream project "[8mha:////4Cxo4sUiak573Z3AWmMKVCyvzKdEdnnjYkLSs0OooWA8AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISA0N9AD95/S7BAAAA[0mTest01" build number [8mha:////4HBEftYm5IRwqNaBNnyx25m18XCDDZ2H3xYV3e4NApWdAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZDU4hIDQ30LAGoa1fHCAAAA[0m8
+originally caused by:
+ Started by user [8mha:////4FxaCkCZTwP4G2XoSTiuFqUsbEELLE0eOkf2lXNFAg7VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0matish
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/Test02
+[Test02] $ /bin/sh -xe /tmp/jenkins5408415850719299574.sh
++ yum install httpd unzip -y
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirror.dhakacom.com
+ * epel: mirror01.idc.hinet.net
+ * extras: mirror.dhakacom.com
+ * updates: mirror.dhakacom.com
+Package httpd-2.4.6-89.el7.centos.x86_64 already installed and latest version
+Package unzip-6.0-19.el7.x86_64 already installed and latest version
+Nothing to do
+Triggering a new build of [8mha:////4IXDnldMxnw8WWH0J0vdTilg4ZcFXYbZek504EqRzmkdAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISA2N9AL0byxzBAAAA[0mTest03
+Triggering a new build of [8mha:////4LbluSgXe4XT1FmhbhWAz8ntQ2twXwX83MAXuHTroVF2AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISAxN9AHqNilPBAAAA[0mTest04
+Triggering a new build of [8mha:////4MsaMnfUPHDlkeB7rOFc0sCM3ESVQ2nWKNP7T7sphaHyAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISA1N9ADu8kUrBAAAA[0mTest05
+Finished: SUCCESS

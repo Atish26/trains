@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.72">
+    <parentIds>
+      <string>34</string>
+    </parentIds>
+    <id>35</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.72">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>cp -rf target/spring-boot-sample-atmosphere-1.4.0.BUILD-SNAPSHOT.jar ../../../ansible/demo07/playbooks/roles/webserver/templates/</string>
+        </entry>
+        <entry>
+          <string>label</string>
+          <string></string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.35">
+      <startTime>1564742277590</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

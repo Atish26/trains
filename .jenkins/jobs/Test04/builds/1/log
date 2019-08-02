@@ -1,0 +1,96 @@
+Started by upstream project "[8mha:////4Hd+VZNHtvxNzXDK2BTRXi93vbsFDwbKk4myMyCLzXy+AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISAyN9APwq0AXBAAAA[0mTest02" build number [8mha:////4KEeCex56qS7W/OHc6npBnApstDbJHAhccJhqZHGk2dAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZDU4hIDI31jALt9QWTCAAAA[0m3
+originally caused by:
+ Started by upstream project "[8mha:////4Cxo4sUiak573Z3AWmMKVCyvzKdEdnnjYkLSs0OooWA8AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISA0N9AD95/S7BAAAA[0mTest01" build number [8mha:////4BTNe2HEuXPt5pmrsMr06QbB+2xoem7xRVVDUIVol4xAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZDU4hIDQ31TANdmZI/CAAAA[0m5
+ originally caused by:
+  Started by user [8mha:////4FxaCkCZTwP4G2XoSTiuFqUsbEELLE0eOkf2lXNFAg7VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0matish
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/Test04
+[Test04] $ /bin/sh -xe /tmp/jenkins4665691489709514305.sh
++ yum install -y php
+Loaded plugins: fastestmirror
+Existing lock /var/run/yum.pid: another copy is running as pid 8983.
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  24 M RSS (329 MB VSZ)
+    Started: Tue Jul 30 06:23:07 2019 - 00:01 ago
+    State  : Sleeping, pid: 8983
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  83 M RSS (859 MB VSZ)
+    Started: Tue Jul 30 06:23:07 2019 - 00:03 ago
+    State  : Running, pid: 8983
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  81 M RSS (851 MB VSZ)
+    Started: Tue Jul 30 06:23:07 2019 - 00:05 ago
+    State  : Sleeping, pid: 8983
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  81 M RSS (851 MB VSZ)
+    Started: Tue Jul 30 06:23:07 2019 - 00:07 ago
+    State  : Sleeping, pid: 8983
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  85 M RSS (855 MB VSZ)
+    Started: Tue Jul 30 06:23:07 2019 - 00:09 ago
+    State  : Running, pid: 8983
+Loading mirror speeds from cached hostfile
+ * base: mirror.dhakacom.com
+ * epel: mirror.xeonbd.com
+ * extras: mirror.dhakacom.com
+ * updates: mirror.dhakacom.com
+Package php-5.4.16-46.el7.x86_64 already installed and latest version
+Nothing to do
++ wget https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
+--2019-07-30 06:23:19--  https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
+Resolving github.com (github.com)... 13.234.176.102
+Connecting to github.com (github.com)|13.234.176.102|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/6269013/59b13fda-7945-11e8-980d-ab5e33568c85?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190730T062319Z&X-Amz-Expires=300&X-Amz-Signature=636d13d6e12e208c2b7a61e30c49be32259ff97b85d1fc978983f5c282e83d50&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Daws.zip&response-content-type=application%2Foctet-stream [following]
+--2019-07-30 06:23:19--  https://github-production-release-asset-2e65be.s3.amazonaws.com/6269013/59b13fda-7945-11e8-980d-ab5e33568c85?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190730T062319Z&X-Amz-Expires=300&X-Amz-Signature=636d13d6e12e208c2b7a61e30c49be32259ff97b85d1fc978983f5c282e83d50&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Daws.zip&response-content-type=application%2Foctet-stream
+Resolving github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)... 52.217.39.236
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.217.39.236|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1679571 (1.6M) [application/octet-stream]
+Saving to: ‘aws.zip’
+
+     0K .......... .......... .......... .......... ..........  3%  109K 15s
+    50K .......... .......... .......... .......... ..........  6% 8.10M 7s
+   100K .......... .......... .......... .......... ..........  9%  221K 7s
+   150K .......... .......... .......... .......... .......... 12%  218K 7s
+   200K .......... .......... .......... .......... .......... 15%  404K 6s
+   250K .......... .......... .......... .......... .......... 18%  488K 5s
+   300K .......... .......... .......... .......... .......... 21% 8.85M 4s
+   350K .......... .......... .......... .......... .......... 24% 4.46M 4s
+   400K .......... .......... .......... .......... .......... 27%  450K 3s
+   450K .......... .......... .......... .......... .......... 30% 4.04M 3s
+   500K .......... .......... .......... .......... .......... 33%  560K 3s
+   550K .......... .......... .......... .......... .......... 36% 7.44M 2s
+   600K .......... .......... .......... .......... .......... 39% 4.60M 2s
+   650K .......... .......... .......... .......... .......... 42% 4.11M 2s
+   700K .......... .......... .......... .......... .......... 45% 4.78M 2s
+   750K .......... .......... .......... .......... .......... 48%  568K 2s
+   800K .......... .......... .......... .......... .......... 51% 9.27M 1s
+   850K .......... .......... .......... .......... .......... 54% 4.76M 1s
+   900K .......... .......... .......... .......... .......... 57% 4.32M 1s
+   950K .......... .......... .......... .......... .......... 60% 7.04M 1s
+  1000K .......... .......... .......... .......... .......... 64%  737K 1s
+  1050K .......... .......... .......... .......... .......... 67% 7.43M 1s
+  1100K .......... .......... .......... .......... .......... 70% 5.14M 1s
+  1150K .......... .......... .......... .......... .......... 73% 4.47M 1s
+  1200K .......... .......... .......... .......... .......... 76% 4.26M 1s
+  1250K .......... .......... .......... .......... .......... 79% 3.51M 0s
+  1300K .......... .......... .......... .......... .......... 82% 7.54M 0s
+  1350K .......... .......... .......... .......... .......... 85% 4.25M 0s
+  1400K .......... .......... .......... .......... .......... 88% 4.81M 0s
+  1450K .......... .......... .......... .......... .......... 91% 4.37M 0s
+  1500K .......... .......... .......... .......... .......... 94% 1.46M 0s
+  1550K .......... .......... .......... .......... .......... 97% 5.91M 0s
+  1600K .......... .......... .......... ..........           100% 6.94M=1.7s
+
+2019-07-30 06:23:22 (941 KB/s) - ‘aws.zip’ saved [1679571/1679571]
+
++ unzip aws -d /var/www/html
+/tmp/jenkins4665691489709514305.sh: line 4: unzip: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

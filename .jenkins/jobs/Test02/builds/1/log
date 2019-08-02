@@ -1,0 +1,60 @@
+Started by upstream project "[8mha:////4Cxo4sUiak573Z3AWmMKVCyvzKdEdnnjYkLSs0OooWA8AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISA0N9AD95/S7BAAAA[0mTest01" build number [8mha:////4PsRRV+KB1suAGgFqpJg0S69KNL5jpMJ3HvpNJPmpP2/AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZDU4hIDQ31jAOLDB2bCAAAA[0m3
+originally caused by:
+ Started by user [8mha:////4FxaCkCZTwP4G2XoSTiuFqUsbEELLE0eOkf2lXNFAg7VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0matish
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/Test02
+[Test02] $ /bin/sh -xe /tmp/jenkins6215087747002531668.sh
++ java -version
+openjdk version "1.8.0_222"
+OpenJDK Runtime Environment (build 1.8.0_222-b10)
+OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
++ yum install httpd
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirror.dhakacom.com
+ * epel: mirrors.yun-idc.com
+ * extras: mirror.dhakacom.com
+ * updates: mirror.dhakacom.com
+http://ftp.riken.jp/Linux/fedora/epel/7/x86_64/repodata/07245ba7239caf6a6c1d157ceb54e4701ec674d8e2b7e8f922447f6909781520-updateinfo.xml.bz2: [Errno 14] curl#52 - "Empty reply from server"
+Trying other mirror.
+Resolving Dependencies
+--> Running transaction check
+---> Package httpd.x86_64 0:2.4.6-89.el7.centos will be installed
+--> Processing Dependency: httpd-tools = 2.4.6-89.el7.centos for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Processing Dependency: system-logos >= 7.92.1-1 for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Processing Dependency: /etc/mime.types for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Processing Dependency: libaprutil-1.so.0()(64bit) for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Processing Dependency: libapr-1.so.0()(64bit) for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Running transaction check
+---> Package apr.x86_64 0:1.4.8-3.el7_4.1 will be installed
+---> Package apr-util.x86_64 0:1.5.2-6.el7 will be installed
+---> Package centos-logos.noarch 0:70.0.6-3.el7.centos will be installed
+---> Package httpd-tools.x86_64 0:2.4.6-89.el7.centos will be installed
+---> Package mailcap.noarch 0:2.1.41-2.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package            Arch         Version                    Repository     Size
+================================================================================
+Installing:
+ httpd              x86_64       2.4.6-89.el7.centos        updates       2.7 M
+Installing for dependencies:
+ apr                x86_64       1.4.8-3.el7_4.1            base          103 k
+ apr-util           x86_64       1.5.2-6.el7                base           92 k
+ centos-logos       noarch       70.0.6-3.el7.centos        base           21 M
+ httpd-tools        x86_64       2.4.6-89.el7.centos        updates        90 k
+ mailcap            noarch       2.1.41-2.el7               base           31 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+5 Dependent packages)
+
+Total download size: 24 M
+Installed size: 31 M
+Is this ok [y/d/N]: Exiting on user command
+Your transaction was saved, rerun it with:
+ yum load-transaction /tmp/yum_save_tx.2019-07-30.06-01.rgtyMB.yumtx
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

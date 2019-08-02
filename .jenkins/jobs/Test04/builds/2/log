@@ -1,0 +1,70 @@
+Started by upstream project "[8mha:////4Hd+VZNHtvxNzXDK2BTRXi93vbsFDwbKk4myMyCLzXy+AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISAyN9APwq0AXBAAAA[0mTest02" build number [8mha:////4EwpROZyX49yBBPlEX96n9BfZ24v1d95uNSyf4jSB20PAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZDU4hIDI30TABjoJfrCAAAA[0m4
+originally caused by:
+ Started by upstream project "[8mha:////4Cxo4sUiak573Z3AWmMKVCyvzKdEdnnjYkLSs0OooWA8AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISA0N9AD95/S7BAAAA[0mTest01" build number [8mha:////4A37iIMIarwO+LGOeLXrZdLi5O+K/UcbKnZoQ/dD9+ntAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZDU4hIDQ30zAG03bRbCAAAA[0m6
+ originally caused by:
+  Started by user [8mha:////4FxaCkCZTwP4G2XoSTiuFqUsbEELLE0eOkf2lXNFAg7VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0matish
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/Test04
+[Test04] $ /bin/sh -xe /tmp/jenkins629617055085217436.sh
++ yum install -y unzip php
+Loaded plugins: fastestmirror
+Existing lock /var/run/yum.pid: another copy is running as pid 9111.
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  24 M RSS (329 MB VSZ)
+    Started: Tue Jul 30 06:26:57 2019 - 00:01 ago
+    State  : Sleeping, pid: 9111
+Loading mirror speeds from cached hostfile
+ * base: mirror.dhakacom.com
+ * epel: mirrors.nipa.cloud
+ * extras: mirror.dhakacom.com
+ * updates: mirror.dhakacom.com
+Package unzip-6.0-19.el7.x86_64 already installed and latest version
+Package php-5.4.16-46.el7.x86_64 already installed and latest version
+Nothing to do
++ wget https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
+--2019-07-30 06:27:01--  https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
+Resolving github.com (github.com)... 13.234.210.38
+Connecting to github.com (github.com)|13.234.210.38|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/6269013/59b13fda-7945-11e8-980d-ab5e33568c85?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190730T062701Z&X-Amz-Expires=300&X-Amz-Signature=22138d877336c89be9b93166211316265529d7d2c9b8b02c500abed1597ad4b0&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Daws.zip&response-content-type=application%2Foctet-stream [following]
+--2019-07-30 06:27:01--  https://github-production-release-asset-2e65be.s3.amazonaws.com/6269013/59b13fda-7945-11e8-980d-ab5e33568c85?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190730T062701Z&X-Amz-Expires=300&X-Amz-Signature=22138d877336c89be9b93166211316265529d7d2c9b8b02c500abed1597ad4b0&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Daws.zip&response-content-type=application%2Foctet-stream
+Resolving github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)... 52.216.236.195
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.236.195|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1679571 (1.6M) [application/octet-stream]
+Saving to: ‘aws.zip.1’
+
+     0K .......... .......... .......... .......... ..........  3% 16.2K 98s
+    50K .......... .......... .......... .......... ..........  6% 11.9K 1m52s
+   100K .......... .......... .......... .......... ..........  9% 5.67K 2m40s
+   150K .......... .......... .......... .......... .......... 12% 4.86K 3m10s
+   200K .......... .......... .......... .......... .......... 15% 6.35K 3m11s
+   250K .......... .......... .......... .......... .......... 18% 6.40K 3m8s
+   300K .......... .......... .......... .......... .......... 21% 4.24K 3m19s
+   350K .......... .......... .......... .......... .......... 24% 6.25K 3m12s
+   400K .......... .......... .......... .......... .......... 27% 4.54K 3m13s
+   450K .......... .......... .......... .......... .......... 30% 4.12K 3m14s
+   500K .......... .......... .......... .......... .......... 33% 3.74K 3m15s
+   550K .......... .......... .......... .......... .......... 36% 3.98K 3m12s
+   600K .......... .......... .......... .......... .......... 39% 9.05K 2m57s
+   650K .......... .......... .......... .......... .......... 42% 4.47K 2m51s
+   700K .......... .......... .......... .......... .......... 45% 3.55K 2m48s
+   750K .......... .......... .......... .......... .......... 48% 4.40K 2m41s
+   800K .......... .......... .......... .......... .......... 51% 6.20K 2m30s
+   850K .......... .......... .......... .......... .......... 54% 9.85K 2m17s
+   900K .......... .......... .......... .......... .......... 57% 7.36K 2m6s
+   950K .......... .......... .......... .......... .......... 60% 5.52K 1m57s
+  1000K .......... .......... .......... .......... .......... 64% 5.87K 1m47s
+  1050K .......... .......... .......... .......... .......... 67% 10.2K 96s
+  1100K .......... .......... .......... .......... .......... 70% 7.18K 86s
+  1150K .......... .......... .......... .......... .......... 73% 7.69K 77s
+  1200K .......... .......... .......... .......... .......... 76% 6.85K 68s
+  1250K .......... .......... .......... .......... .......... 79% 6.94K 58s
+  1300K .......... .......... .......... .......... .......... 82% 6.05K 50s
+  1350K .......... .......... .......... .......... .......... 85% 6.61K 41s
+  1400K .......... .......... .......... .......... .......... 88% 7.93K 32s
+  1450K .......... .......... ........                         90% 29.8K=4m7s
+
+2019-07-30 06:36:11 (6.00 KB/s) - Read error at byte 1514070/1679571 (Connection reset by peer). Build step 'Execute shell' marked build as failure
+Finished: FAILURE

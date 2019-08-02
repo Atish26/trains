@@ -1,0 +1,82 @@
+Started by upstream project "[8mha:////4Cxo4sUiak573Z3AWmMKVCyvzKdEdnnjYkLSs0OooWA8AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISA0N9AD95/S7BAAAA[0mTest01" build number [8mha:////4O9Fj0mzMARDZqfzAZDx8n31SaUM6g/S9xA2GaOzHAKmAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZDU4hIDQ30TAEFWY/jCAAAA[0m4
+originally caused by:
+ Started by user [8mha:////4FxaCkCZTwP4G2XoSTiuFqUsbEELLE0eOkf2lXNFAg7VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0matish
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/Test02
+[Test02] $ /bin/sh -xe /tmp/jenkins7137611724142548516.sh
++ yum install httpd -y
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirror.dhakacom.com
+ * epel: ftp.jaist.ac.jp
+ * extras: mirror.dhakacom.com
+ * updates: mirror.dhakacom.com
+Resolving Dependencies
+--> Running transaction check
+---> Package httpd.x86_64 0:2.4.6-89.el7.centos will be installed
+--> Processing Dependency: httpd-tools = 2.4.6-89.el7.centos for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Processing Dependency: system-logos >= 7.92.1-1 for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Processing Dependency: /etc/mime.types for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Processing Dependency: libaprutil-1.so.0()(64bit) for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Processing Dependency: libapr-1.so.0()(64bit) for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Running transaction check
+---> Package apr.x86_64 0:1.4.8-3.el7_4.1 will be installed
+---> Package apr-util.x86_64 0:1.5.2-6.el7 will be installed
+---> Package centos-logos.noarch 0:70.0.6-3.el7.centos will be installed
+---> Package httpd-tools.x86_64 0:2.4.6-89.el7.centos will be installed
+---> Package mailcap.noarch 0:2.1.41-2.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package            Arch         Version                    Repository     Size
+================================================================================
+Installing:
+ httpd              x86_64       2.4.6-89.el7.centos        updates       2.7 M
+Installing for dependencies:
+ apr                x86_64       1.4.8-3.el7_4.1            base          103 k
+ apr-util           x86_64       1.5.2-6.el7                base           92 k
+ centos-logos       noarch       70.0.6-3.el7.centos        base           21 M
+ httpd-tools        x86_64       2.4.6-89.el7.centos        updates        90 k
+ mailcap            noarch       2.1.41-2.el7               base           31 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+5 Dependent packages)
+
+Total download size: 24 M
+Installed size: 31 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              3.1 MB/s |  24 MB  00:07     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : apr-1.4.8-3.el7_4.1.x86_64                                   1/6 
+  Installing : apr-util-1.5.2-6.el7.x86_64                                  2/6 
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64                       3/6 
+  Installing : centos-logos-70.0.6-3.el7.centos.noarch                      4/6 
+  Installing : mailcap-2.1.41-2.el7.noarch                                  5/6 
+  Installing : httpd-2.4.6-89.el7.centos.x86_64                             6/6 
+  Verifying  : httpd-tools-2.4.6-89.el7.centos.x86_64                       1/6 
+  Verifying  : mailcap-2.1.41-2.el7.noarch                                  2/6 
+  Verifying  : apr-util-1.5.2-6.el7.x86_64                                  3/6 
+  Verifying  : httpd-2.4.6-89.el7.centos.x86_64                             4/6 
+  Verifying  : apr-1.4.8-3.el7_4.1.x86_64                                   5/6 
+  Verifying  : centos-logos-70.0.6-3.el7.centos.noarch                      6/6 
+
+Installed:
+  httpd.x86_64 0:2.4.6-89.el7.centos                                            
+
+Dependency Installed:
+  apr.x86_64 0:1.4.8-3.el7_4.1                                                  
+  apr-util.x86_64 0:1.5.2-6.el7                                                 
+  centos-logos.noarch 0:70.0.6-3.el7.centos                                     
+  httpd-tools.x86_64 0:2.4.6-89.el7.centos                                      
+  mailcap.noarch 0:2.1.41-2.el7                                                 
+
+Complete!
+Triggering a new build of [8mha:////4IXDnldMxnw8WWH0J0vdTilg4ZcFXYbZek504EqRzmkdAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISA2N9AL0byxzBAAAA[0mTest03
+Finished: SUCCESS

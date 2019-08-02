@@ -1,0 +1,79 @@
+Started by upstream project "[8mha:////4Hd+VZNHtvxNzXDK2BTRXi93vbsFDwbKk4myMyCLzXy+AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISAyN9APwq0AXBAAAA[0mTest02" build number [8mha:////4J0OJBpOpNQSNGHvyQuXh2wEvou/XVjc+lrGCNIlpPddAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZDU4hIDI30zADSJKxTCAAAA[0m6
+originally caused by:
+ Started by upstream project "[8mha:////4Cxo4sUiak573Z3AWmMKVCyvzKdEdnnjYkLSs0OooWA8AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISA0N9AD95/S7BAAAA[0mTest01" build number [8mha:////4HBEftYm5IRwqNaBNnyx25m18XCDDZ2H3xYV3e4NApWdAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZDU4hIDQ30LAGoa1fHCAAAA[0m8
+ originally caused by:
+  Started by user [8mha:////4FxaCkCZTwP4G2XoSTiuFqUsbEELLE0eOkf2lXNFAg7VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0matish
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/Test04
+[Test04] $ /bin/sh -xe /tmp/jenkins5986746145569115357.sh
++ yum install -y unzip php
+Loaded plugins: fastestmirror
+Existing lock /var/run/yum.pid: another copy is running as pid 9372.
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  24 M RSS (329 MB VSZ)
+    Started: Tue Jul 30 06:40:43 2019 - 00:00 ago
+    State  : Sleeping, pid: 9372
+Loading mirror speeds from cached hostfile
+ * base: mirror.dhakacom.com
+ * epel: mirror1.ku.ac.th
+ * extras: mirror.dhakacom.com
+ * updates: mirror.dhakacom.com
+Package unzip-6.0-19.el7.x86_64 already installed and latest version
+Package php-5.4.16-46.el7.x86_64 already installed and latest version
+Nothing to do
++ wget https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
+--2019-07-30 06:40:46--  https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
+Resolving github.com (github.com)... 13.234.176.102
+Connecting to github.com (github.com)|13.234.176.102|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/6269013/59b13fda-7945-11e8-980d-ab5e33568c85?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190730T064047Z&X-Amz-Expires=300&X-Amz-Signature=dc024299b613696269a03c6d9e3f4071123c89d45d62116376f1a0f02611f1ba&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Daws.zip&response-content-type=application%2Foctet-stream [following]
+--2019-07-30 06:40:47--  https://github-production-release-asset-2e65be.s3.amazonaws.com/6269013/59b13fda-7945-11e8-980d-ab5e33568c85?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190730T064047Z&X-Amz-Expires=300&X-Amz-Signature=dc024299b613696269a03c6d9e3f4071123c89d45d62116376f1a0f02611f1ba&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Daws.zip&response-content-type=application%2Foctet-stream
+Resolving github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)... 52.216.93.91
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.93.91|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1679571 (1.6M) [application/octet-stream]
+Saving to: ‘aws.zip.3’
+
+     0K .......... .......... .......... .......... ..........  3%  105K 15s
+    50K .......... .......... .......... .......... ..........  6%  208K 11s
+   100K .......... .......... .......... .......... ..........  9%  212K 9s
+   150K .......... .......... .......... .......... .......... 12%  210K 9s
+   200K .......... .......... .......... .......... .......... 15%  211K 8s
+   250K .......... .......... .......... .......... .......... 18% 9.89M 6s
+   300K .......... .......... .......... .......... .......... 21% 4.31M 5s
+   350K .......... .......... .......... .......... .......... 24% 4.18M 5s
+   400K .......... .......... .......... .......... .......... 27%  239K 4s
+   450K .......... .......... .......... .......... .......... 30% 2.86M 4s
+   500K .......... .......... .......... .......... .......... 33%  479K 4s
+   550K .......... .......... .......... .......... .......... 36%  402K 3s
+   600K .......... .......... .......... .......... .......... 39% 8.82M 3s
+   650K .......... .......... .......... .......... .......... 42% 4.62M 3s
+   700K .......... .......... .......... .......... .......... 45% 4.41M 2s
+   750K .......... .......... .......... .......... .......... 48% 4.53M 2s
+   800K .......... .......... .......... .......... .......... 51%  261K 2s
+   850K .......... .......... .......... .......... .......... 54% 8.48M 2s
+   900K .......... .......... .......... .......... .......... 57% 3.46M 2s
+   950K .......... .......... .......... .......... .......... 60% 6.81M 1s
+  1000K .......... .......... .......... .......... .......... 64% 4.45M 1s
+  1050K .......... .......... .......... .......... .......... 67% 4.55M 1s
+  1100K .......... .......... .......... .......... .......... 70% 4.59M 1s
+  1150K .......... .......... .......... .......... .......... 73%  199K 1s
+  1200K .......... .......... .......... .......... .......... 76%  211K 1s
+  1250K .......... .......... .......... .......... .......... 79% 11.3M 1s
+  1300K .......... .......... .......... .......... .......... 82% 24.4M 1s
+  1350K .......... .......... .......... .......... .......... 85% 12.5M 0s
+  1400K .......... .......... .......... .......... .......... 88% 34.5M 0s
+  1450K .......... .......... .......... .......... .......... 91% 48.9M 0s
+  1500K .......... .......... .......... .......... .......... 94% 57.3M 0s
+  1550K .......... .......... .......... .......... .......... 97% 59.7M 0s
+  1600K .......... .......... .......... ..........           100% 63.3M=2.7s
+
+2019-07-30 06:40:50 (607 KB/s) - ‘aws.zip.3’ saved [1679571/1679571]
+
++ unzip aws -d /var/www/html
+Archive:  aws.zip
+replace /var/www/html/GuzzleHttp/HandlerStack.php? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

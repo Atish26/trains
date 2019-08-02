@@ -1,0 +1,47 @@
+Started by user [8mha:////4FxaCkCZTwP4G2XoSTiuFqUsbEELLE0eOkf2lXNFAg7VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0matish
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4KcVLroG3A/bR+Kk8nVrcBUsJ1g4hryRcRT9NJCGnq7AAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4KFHqaZ+X7DnCMZ03Tuxsust+Qwxj1zYlgDq8Y8AHkMKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HVHouTCbWaFGhCEBlLJH7dXscZejg17FCI31FjA3VPgAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /root/.jenkins/workspace/Test06
+[8mha:////4EqRLJRevNDyZ4QX9F7CO1BPD7NQoqxvyQMduuFf2lMXAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Ifrwx8LCuQEbW05A5aIkvRvGZf2hj99cGGKF7BCL45PAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] git
+Warning: CredentialId "01" could not be found.
+Cloning the remote Git repository
+Cloning repository https://github.com/amitvashist7/devops-acc-29072019.git
+ > git init /root/.jenkins/workspace/Test06 # timeout=10
+Fetching upstream changes from https://github.com/amitvashist7/devops-acc-29072019.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/amitvashist7/devops-acc-29072019.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/amitvashist7/devops-acc-29072019.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/amitvashist7/devops-acc-29072019.git # timeout=10
+Fetching upstream changes from https://github.com/amitvashist7/devops-acc-29072019.git
+ > git fetch --tags --progress https://github.com/amitvashist7/devops-acc-29072019.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bbcf05cf66c88858f08bc6351c7882cb62298297 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bbcf05cf66c88858f08bc6351c7882cb62298297
+[8mha:////4CifWaGXVaLxehKD0g7rQ97VxB4x78ZObVO52o2TW/cLAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGBtjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j8OXFZ7vAAAAA==[0m[Pipeline] }
+[8mha:////4INIW1kZY1EahO/E+CSz/yrD+LC7qcw6Pykiyb6aeFGdAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWFgYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHOMBdihdv8BHeBS2LwAAAA=[0m[Pipeline] // node
+[8mha:////4Ex617AYFBbWijtAhU3SbbuIn2Dd7xMZI+ExTkuWkE3yAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSbWJkYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHOMBdihdv8BWkcFLbwAAAA=[0m[Pipeline] End of Pipeline
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.UNIXProcess.waitFor(UNIXProcess.java:395)
+	at hudson.Proc$LocalProc.join(Proc.java:325)
+	at hudson.Proc.joinWithTimeout(Proc.java:171)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2038)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$900(CliGitAPIImpl.java:72)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$9.execute(CliGitAPIImpl.java:2323)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1242)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:124)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:93)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:80)
+	at org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Finished: ABORTED

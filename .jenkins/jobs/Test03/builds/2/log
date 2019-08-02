@@ -1,0 +1,123 @@
+Started by upstream project "[8mha:////4Hd+VZNHtvxNzXDK2BTRXi93vbsFDwbKk4myMyCLzXy+AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISAyN9APwq0AXBAAAA[0mTest02" build number [8mha:////4KEeCex56qS7W/OHc6npBnApstDbJHAhccJhqZHGk2dAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZDU4hIDI31jALt9QWTCAAAA[0m3
+originally caused by:
+ Started by upstream project "[8mha:////4Cxo4sUiak573Z3AWmMKVCyvzKdEdnnjYkLSs0OooWA8AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2Q1OISA0N9AD95/S7BAAAA[0mTest01" build number [8mha:////4BTNe2HEuXPt5pmrsMr06QbB+2xoem7xRVVDUIVol4xAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZDU4hIDQ31TANdmZI/CAAAA[0m5
+ originally caused by:
+  Started by user [8mha:////4FxaCkCZTwP4G2XoSTiuFqUsbEELLE0eOkf2lXNFAg7VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0matish
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/Test03
+[Test03] $ /bin/sh -xe /tmp/jenkins1027901601672749693.sh
++ yum install -y php
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirror.dhakacom.com
+ * epel: mirrors.nipa.cloud
+ * extras: mirror.dhakacom.com
+ * updates: mirror.dhakacom.com
+Resolving Dependencies
+--> Running transaction check
+---> Package php.x86_64 0:5.4.16-46.el7 will be installed
+--> Processing Dependency: php-common(x86-64) = 5.4.16-46.el7 for package: php-5.4.16-46.el7.x86_64
+--> Processing Dependency: php-cli(x86-64) = 5.4.16-46.el7 for package: php-5.4.16-46.el7.x86_64
+--> Running transaction check
+---> Package php-cli.x86_64 0:5.4.16-46.el7 will be installed
+---> Package php-common.x86_64 0:5.4.16-46.el7 will be installed
+--> Processing Dependency: libzip.so.2()(64bit) for package: php-common-5.4.16-46.el7.x86_64
+--> Running transaction check
+---> Package libzip.x86_64 0:0.10.1-8.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package             Arch            Version                Repository     Size
+================================================================================
+Installing:
+ php                 x86_64          5.4.16-46.el7          base          1.4 M
+Installing for dependencies:
+ libzip              x86_64          0.10.1-8.el7           base           48 k
+ php-cli             x86_64          5.4.16-46.el7          base          2.7 M
+ php-common          x86_64          5.4.16-46.el7          base          565 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+3 Dependent packages)
+
+Total download size: 4.7 M
+Installed size: 17 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              961 kB/s | 4.7 MB  00:05     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : libzip-0.10.1-8.el7.x86_64                                   1/4 
+  Installing : php-common-5.4.16-46.el7.x86_64                              2/4 
+  Installing : php-cli-5.4.16-46.el7.x86_64                                 3/4 
+  Installing : php-5.4.16-46.el7.x86_64                                     4/4 
+  Verifying  : php-common-5.4.16-46.el7.x86_64                              1/4 
+  Verifying  : php-cli-5.4.16-46.el7.x86_64                                 2/4 
+  Verifying  : libzip-0.10.1-8.el7.x86_64                                   3/4 
+  Verifying  : php-5.4.16-46.el7.x86_64                                     4/4 
+
+Installed:
+  php.x86_64 0:5.4.16-46.el7                                                    
+
+Dependency Installed:
+  libzip.x86_64 0:0.10.1-8.el7             php-cli.x86_64 0:5.4.16-46.el7       
+  php-common.x86_64 0:5.4.16-46.el7       
+
+Complete!
++ wget https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
+--2019-07-30 06:23:16--  https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
+Resolving github.com (github.com)... 13.234.210.38
+Connecting to github.com (github.com)|13.234.210.38|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/6269013/59b13fda-7945-11e8-980d-ab5e33568c85?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190730T062317Z&X-Amz-Expires=300&X-Amz-Signature=c7adccfc164b1fd3ce4190cdc8d240080fb6f5835309a12ac4067b6b87512059&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Daws.zip&response-content-type=application%2Foctet-stream [following]
+--2019-07-30 06:23:17--  https://github-production-release-asset-2e65be.s3.amazonaws.com/6269013/59b13fda-7945-11e8-980d-ab5e33568c85?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190730T062317Z&X-Amz-Expires=300&X-Amz-Signature=c7adccfc164b1fd3ce4190cdc8d240080fb6f5835309a12ac4067b6b87512059&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Daws.zip&response-content-type=application%2Foctet-stream
+Resolving github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)... 52.216.97.91
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.97.91|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1679571 (1.6M) [application/octet-stream]
+Saving to: ‘aws.zip’
+
+     0K .......... .......... .......... .......... ..........  3%  106K 15s
+    50K .......... .......... .......... .......... ..........  6% 7.26M 7s
+   100K .......... .......... .......... .......... ..........  9%  214K 7s
+   150K .......... .......... .......... .......... .......... 12%  211K 7s
+   200K .......... .......... .......... .......... .......... 15%  221K 7s
+   250K .......... .......... .......... .......... .......... 18%  216K 6s
+   300K .......... .......... .......... .......... .......... 21% 8.60M 5s
+   350K .......... .......... .......... .......... .......... 24% 5.17M 4s
+   400K .......... .......... .......... .......... .......... 27% 4.35M 4s
+   450K .......... .......... .......... .......... .......... 30%  240K 4s
+   500K .......... .......... .......... .......... .......... 33% 5.08M 3s
+   550K .......... .......... .......... .......... .......... 36% 4.81M 3s
+   600K .......... .......... .......... .......... .......... 39% 4.54M 3s
+   650K .......... .......... .......... .......... .......... 42% 4.56M 2s
+   700K .......... .......... .......... .......... .......... 45% 4.48M 2s
+   750K .......... .......... .......... .......... .......... 48% 4.24M 2s
+   800K .......... .......... .......... .......... .......... 51%  294K 2s
+   850K .......... .......... .......... .......... .......... 54% 7.43M 2s
+   900K .......... .......... .......... .......... .......... 57%  153K 2s
+   950K .......... .......... .......... .......... .......... 60% 9.94M 1s
+  1000K .......... .......... .......... .......... .......... 64% 56.6M 1s
+  1050K .......... .......... .......... .......... .......... 67% 58.5M 1s
+  1100K .......... .......... .......... .......... .......... 70% 57.3M 1s
+  1150K .......... .......... .......... .......... .......... 73% 56.6M 1s
+  1200K .......... .......... .......... .......... .......... 76%  405K 1s
+  1250K .......... .......... .......... .......... .......... 79% 3.22M 1s
+  1300K .......... .......... .......... .......... .......... 82% 3.57M 1s
+  1350K .......... .......... .......... .......... .......... 85%  703K 0s
+  1400K .......... .......... .......... .......... .......... 88%  371K 0s
+  1450K .......... .......... .......... .......... .......... 91% 2.62M 0s
+  1500K .......... .......... .......... .......... .......... 94% 2.34M 0s
+  1550K .......... .......... .......... .......... .......... 97% 2.59M 0s
+  1600K .......... .......... .......... ..........           100%  351K=2.7s
+
+2019-07-30 06:23:20 (597 KB/s) - ‘aws.zip’ saved [1679571/1679571]
+
++ unzip aws -d /var/www/html
+/tmp/jenkins1027901601672749693.sh: line 4: unzip: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
